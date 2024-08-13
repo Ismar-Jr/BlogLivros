@@ -1,0 +1,15 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Por que devo ler?</h1>
+<h2>Neste blog, apresento um resumo dos últimos livros que li e explico por que você deve lê-los.</h2>
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Expandir o post", post %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "Novo post", new_post_path %>

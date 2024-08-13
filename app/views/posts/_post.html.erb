@@ -1,0 +1,21 @@
+<div id="<%= dom_id post %>" class="post-container">
+  <div class="post-title">
+    <h1><%= post.title %></h1>
+  </div>
+
+  <div class="post-description">
+    <p><%= post.description %></p>
+  </div>
+
+  <div class="post-date">
+    <% if post.published_at.present? %>
+      <p>Publicado em: <%= l(post.published_at, format: :long) %></p>
+    <% else %>
+      <p>Data de publicação não disponível.</p>
+    <% end %>
+  </div>
+
+  <div class="post-content">
+      <%= raw post.text %>
+  </div>
+</div>

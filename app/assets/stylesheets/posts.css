@@ -1,0 +1,125 @@
+/* Basic styles for the form */
+
+body {
+  background-color: #7ca2cf; /* Cor de fundo mais clara para um contraste mais suave */
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  color: #333; /* Cor de texto padrão */
+  margin: 0;
+  padding: 0;
+}
+.post-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.errors {
+  color: red;
+  margin-bottom: 1em;
+}
+
+.errors h2 {
+  margin-bottom: 0.5em;
+}
+
+.errors ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.errors li {
+  margin-bottom: 0.5em;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+.form-input {
+  width: 98%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  width: 98%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 200px; /* Ajuste a altura conforme necessário */
+  resize: vertical; /* Permite o redimensionamento vertical */
+}
+
+.form-submit {
+  padding: 0.7em 1.2em;
+  border: none;
+  border-radius: 4px;
+  background-color: #0046ff;
+  color: #fff;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #0056b3;
+}
+
+.form-submit:active {
+  background-color: #49586b;
+  color: #ffffff;
+  transform: scale(0.98);
+}
+
+
+/* Container for the post */
+.post-container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for post title */
+.post-title {
+  margin-bottom: 1.5em;
+  display: block;
+  font-size: 1.5em;
+  color: #0046ff;
+}
+
+/* Styling for post description */
+.post-description {
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+  display: block;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Styling for post content */
+.post-content {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.post-date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
